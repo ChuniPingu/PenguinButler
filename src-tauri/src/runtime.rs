@@ -120,7 +120,7 @@ fn project_staged_publish_root() -> Option<PathBuf> {
         .join("Release")
         .join("net10.0")
         .join("publish")
-        .join("WinX64-SelfContained-SingleFile");
+        .join("WinX64-NativeAOT");
 
     if publish_root.is_dir() {
         Some(publish_root)

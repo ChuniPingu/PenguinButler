@@ -15,7 +15,7 @@ const publishRoot = join(
   "Release",
   "net10.0",
   "publish",
-  "WinX64-SelfContained-SingleFile",
+  "WinX64-NativeAOT",
 );
 const cliExe = join(publishRoot, "PenguinTools.CLI.exe");
 const assetsRoot = join(publishRoot, "assets");

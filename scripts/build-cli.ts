@@ -7,7 +7,7 @@ const penguinToolsRoot = join(projectRoot, "external", "PenguinTools");
 const muaRoot = join(penguinToolsRoot, "External", "mua");
 const muaPublishRoot = join(muaRoot, "target", "release", "mua");
 const criProject = join(penguinToolsRoot, "PenguinTools.CRI", "PenguinTools.CRI.csproj");
-const publishProfile = "WinX64-SelfContained-SingleFile";
+const publishProfile = "WinX64-NativeAOT";
 const publishRoot = join(
   penguinToolsRoot,
   "PenguinTools.CLI",
